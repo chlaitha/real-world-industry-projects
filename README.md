@@ -21,6 +21,14 @@ A collection of end-to-end data science, econometrics, and machine learning proj
   * Built a predictive classifier isolating a High-Risk patient cohort with a 73.1% actual no-show rate.
   * Formulated dynamic overbooking and interactive 2-way outreach strategies.
 
+### 3. Predictive Modeling of Hotel Cancellations & Revenue Optimization
+* **Domain:** Hospitality & Revenue Management
+* **Focus:** Forecasting reservation cancellation risks, evaluating revenue exposure, and mitigating unfulfilled room inventory through machine learning.
+* **Key Results:**
+  * Quantified booking lead time as a primary risk vector, with cancellations exceeding 45% for bookings made >90 days in advance.
+  * Built a LightGBM classification pipeline achieving high discriminatory power ($\text{ROC-AUC} \approx 0.88+$) at the time of reservation.
+  * Designed operational strategies including tiered advance deposits, pre-arrival engagement triggers, and dynamic overbooking buffers.
+
 ---
 
 ## Repository Structure
@@ -29,5 +37,6 @@ A collection of end-to-end data science, econometrics, and machine learning proj
 .
 ├── Finance_Personal_Financial_Risk_&_Stress_Prediction_Engine.ipynb
 ├── Health_Optimizing_Clinic_Attendance.ipynb
+├── Predictive_Modeling_of_Hotel_Cancellations_&_Revenue_Optimization.ipynb
 ├── README.md
 └── requirements.txt
