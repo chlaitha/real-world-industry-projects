@@ -45,7 +45,7 @@ A collection of end-to-end data science, econometrics, and machine learning proj
 .
 ├── Finance_Personal_Financial_Risk_&_Stress_Prediction_Engine.ipynb
 ├── Health_Optimizing_Clinic_Attendance.ipynb
-├── Predictive_Modeling_of_Flight_Delays_&_Operational_Risk.ipynb
 ├── Predictive_Modeling_of_Hotel_Cancellations_&_Revenue_Optimization.ipynb
+├── Predictive_Modeling_of_Flight_Delays_&_Operational_Risk.ipynb
 ├── README.md
 └── requirements.txt
