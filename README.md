@@ -29,6 +29,14 @@ A collection of end-to-end data science, econometrics, and machine learning proj
   * Built a LightGBM classification pipeline achieving high discriminatory power ($\text{ROC-AUC} \approx 0.88+$) at the time of reservation.
   * Designed operational strategies including tiered advance deposits, pre-arrival engagement triggers, and dynamic overbooking buffers.
 
+### 4. Flight Delay Prediction & Operational Risk Analytics
+* **Domain:** Aviation & Airline Operations
+* **Focus:** Quantifying operational delay drivers, analyzing network propagation, and predicting flight arrival delays ($>15$ minutes) across 5.7M flights.
+* **Key Results:**
+  * Revealed strong carrier performance variance (Hawaiian/Alaska at 10–12% vs. Spirit/Frontier at 25–29%) and late-day delay escalation (>25% past 18:00).
+  * Isolated `LATE AIRCRAFT` (24.2 min) and `AIRLINE` control (19.6 min) as the primary operational drivers over weather disruptions (3.0 min).
+  * Developed a LightGBM classifier ($\text{ROC-AUC} = 0.7114$) and established probability threshold optimization strategies for imbalanced class detection.
+
 ---
 
 ## Repository Structure
@@ -37,6 +45,7 @@ A collection of end-to-end data science, econometrics, and machine learning proj
 .
 ├── Finance_Personal_Financial_Risk_&_Stress_Prediction_Engine.ipynb
 ├── Health_Optimizing_Clinic_Attendance.ipynb
+├── Predictive_Modeling_of_Flight_Delays_&_Operational_Risk.ipynb
 ├── Predictive_Modeling_of_Hotel_Cancellations_&_Revenue_Optimization.ipynb
 ├── README.md
 └── requirements.txt
